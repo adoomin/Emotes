@@ -1,0 +1,4 @@
+scoreboard objectives add EmtTime dummy
+scoreboard objectives add emotes trigger
+scoreboard objectives add EmtDeath deathCount
+tellraw @a [{"text":"==========","color":"green"},{"text":"Emotes in minecraft ","color":"white","bold":true},{"text":"(v1.0)","color":"white","bold":false},{"text":"==========\n"},{"text":"Type ","color":"white","bold":false},{"text":"/trigger emotes","color":"light_purple","bold":false,"hoverEvent":{"action":"show_text","contents":[{"text":"Click"}]},"clickEvent":{"action":"suggest_command","value":"/trigger emotes"}},{"text":" to show emotes list.\n\n","color":"white","bold":false},{"text":"[Developer's YT Channel]","color":"red","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"Click"}]},"clickEvent":{"action":"open_url","value":"https://www.youtube.com/channel/UCWW2z0a4SZFhuHJsE-UwitA"}},{"text":"\n======================================="}]

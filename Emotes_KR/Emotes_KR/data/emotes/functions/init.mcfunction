@@ -1,0 +1,4 @@
+scoreboard objectives add EmtTime dummy
+scoreboard objectives add emotes trigger
+scoreboard objectives add EmtDeath deathCount
+tellraw @a [{"text":"==========","color":"green"},{"text":"감정 표현 데이터팩 ","color":"white","bold":true},{"text":"(v1.0)","color":"white","bold":false},{"text":"==========\n"},{"text":"명령어 ","color":"white","bold":false},{"text":"/trigger emotes","color":"light_purple","bold":false,"hoverEvent":{"action":"show_text","contents":[{"text":"클릭"}]},"clickEvent":{"action":"suggest_command","value":"/trigger emotes"}},{"text":" 를 입력하여 \n목록을 확인할 수 있습니다.\n\n","color":"white","bold":false},{"text":"[제작자 유튜브 채널]","color":"red","bold":true,"hoverEvent":{"action":"show_text","contents":[{"text":"클릭"}]},"clickEvent":{"action":"open_url","value":"https://www.youtube.com/channel/UCWW2z0a4SZFhuHJsE-UwitA"}},{"text":"\n======================================="}]
